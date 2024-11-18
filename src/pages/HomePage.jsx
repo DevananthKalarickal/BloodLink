@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { PlusIcon, DatabaseIcon, MailIcon, CalendarIcon } from "lucide-react";
 import Modal from "../components/shared/modal/Modal";
 import "./HomePage.css";
-import Headerr from "./header2";
+import Headerr from "./Headerr";
 import Sidebar from "../components/shared/Layout/Sidebar";
 
 const HomePage = () => {
