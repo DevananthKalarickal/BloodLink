@@ -1,0 +1,42 @@
+.custom-navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 65px;
+    position: "sticky" !important;
+     
+  }
+  
+  .custom-navbar .navbar-brand {
+    padding: 0;
+    height: 100%;
+  }
+  
+  .custom-navbar .navbar-toggle {
+    padding: 0.25rem 0.75rem;
+  }
+  
+  .custom-navbar .nav-link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .custom-navbar .offcanvas-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .custom-navbar .nav {
+    display: flex;
+    align-items: center;  /* Align items horizontally */
+  }
+  
+  .custom-navbar .nav .nav-link {
+    padding: 10px 15px;
+  }
+  
+  @media (min-width: 992px) {
+    .custom-navbar .navbar-collapse {
+      display: flex !important;  /* Ensure the navbar items are in a row on larger screens */
+    }
+  }
+  

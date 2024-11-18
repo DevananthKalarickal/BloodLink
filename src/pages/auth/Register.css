@@ -1,0 +1,52 @@
+/* Register Page Container */
+.register-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Changed from 100vh to auto */
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+    background: linear-gradient(to right, #0f2027, #2c5364);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px; /* Maintain padding for compact design */
+}
+
+/* Register Container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .register-container {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    
+    .form-banner {
+        min-width: 100%; /* Full width on mobile */
+        padding: 10px; /* Adjust padding */
+    }
+    
+    .form-content {
+        min-width: 100%; /* Full width on mobile */
+        max-width: 100%; /* Full width on mobile */
+    }
+}
+input,
+button {
+    width: 100%;
+    padding: 6px; /* Consistent padding */
+    margin: 10px 0; /* Consistent margin */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
