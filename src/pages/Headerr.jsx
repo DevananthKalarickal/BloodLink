@@ -3,7 +3,7 @@ import { BiUserCircle } from "react-icons/bi";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import { MdOutlineBloodtype } from "react-icons/md";
 import { Navbar, Nav, Container, Button, Badge, Form, InputGroup } from "react-bootstrap";
-import "./Headerr.css";
+
 
 const Headerr = ({ data, onSearchResults }) => {
   const [currentUser, setCurrentUser] = useState(null);
